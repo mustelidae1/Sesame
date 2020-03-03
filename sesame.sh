@@ -19,5 +19,29 @@ do
 	if [[ $line = git-bash:* ]] 
 	then 
 		git-bash --cd=${SPLIT[1]} &  
+	fi
+
+	if [[ $line = chrome:* ]] 
+	then
+		chrome ${SPLIT[1]} & 
+	fi
+
+	if [[ $line = file-sys:* ]] 
+	then 
+		start ${SPLIT[1]} & 
+	fi
+
+	if [[ $line = intelij:* ]]
+	then 
+		idea.bat ${SPLIT[1]} & 
 	fi 
-done < $1  
+
+        #things to add: 
+	#Unity 
+	#Android Emulator 
+	#FS - doesn't work 
+	#Intellij - doesn't work 
+	#GUI where you can put program filepaths and configs 
+done < $1 
+exit
+exit 
