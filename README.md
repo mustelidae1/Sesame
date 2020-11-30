@@ -5,9 +5,9 @@ Sesame is a simple bash script to open all of the windows that you need for a pr
 To use Sesame with your projects, simply create a sesame config file for each project. List each program that you want to open for your project, followed by a colon and the filepath to open, on its own line. 
 
 For example: 
-``android-studio:<filepath> 
-atom:<filepath> 
-git-bash:<filepath>`` 
+``android-studio:<filepath>``
+``atom:<filepath>`` 
+``git-bash:<filepath>`` 
 
 To open your project, run ``sesame <path-to-config-file>`` 
 
