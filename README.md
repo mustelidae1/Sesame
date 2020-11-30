@@ -11,8 +11,8 @@ For example:
 
 To open your project, run ``sesame <path-to-config-file>`` 
 
-For ease of use, it is recommended to add an alias for each config file in your .bashrc, for example: 
-``alias sesame="<path-to-sesame>"``
+For ease of use, it is recommended to add an alias for each config file in your .bashrc, for example:  
+``alias sesame="<path-to-sesame>"``  
 ``alias project1="sesame <path-to-project1-config>"`` 
 
 I hope to eventually add more automation so that the aliases do not have to be added manually. 
